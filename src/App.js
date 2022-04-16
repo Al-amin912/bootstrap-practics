@@ -1,23 +1,18 @@
-import logo from './logo.svg';
+
 import './App.css';
+import {Button} from 'react-bootstrap';
+
+import Header from './components/Header/Header';
+import Fregment from './components/Fregments/Fregment';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <h3>react bootstrap</h3>
+    <Button variant = "primary">primary</Button>
+    <Fregment></Fregment>
+     <Header></Header>
+ 
     </div>
   );
 }
